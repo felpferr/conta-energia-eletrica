@@ -21,6 +21,18 @@
     <ClInclude Include="historico.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="consumo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="valoresFaturados.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arquivoTexto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arquivoBinario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cliente.cpp">
@@ -28,6 +40,21 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="historico.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consumo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="valoresFaturados.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arquivoTexto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arquivoBinario.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

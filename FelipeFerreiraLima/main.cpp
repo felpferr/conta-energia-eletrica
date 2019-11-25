@@ -1,5 +1,15 @@
 #include <iostream>
+#include <string>
+#include "arquivoBinario.h"
+#include "arquivoTexto.h"
 
-int main() {
+using namespace std;
+
+int main(int argc, char *argv[]){
+	ArquivoBinario ab;
+	ArquivoBinario at;
+
+
+
 	return 0;
 }

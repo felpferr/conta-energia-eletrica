@@ -23,6 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>FelipeFerreiraLima</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>cee</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,12 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="arquivoBinario.h" />
+    <ClInclude Include="arquivoTexto.h" />
     <ClInclude Include="cliente.h" />
+    <ClInclude Include="consumo.h" />
     <ClInclude Include="historico.h" />
+    <ClInclude Include="valoresFaturados.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="arquivoBinario.cpp" />
+    <ClCompile Include="arquivoTexto.cpp" />
     <ClCompile Include="cliente.cpp" />
+    <ClCompile Include="consumo.cpp" />
+    <ClCompile Include="historico.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="valoresFaturados.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
