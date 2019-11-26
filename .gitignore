@@ -1,6 +1,5 @@
 *.filters
 *.ilk
-*.pdf
 *.pdb
 *.log
 
@@ -34,6 +33,5 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
